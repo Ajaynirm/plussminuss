@@ -32,3 +32,63 @@ background: #141517;
 color: #fff;
 cursor: pointer;
 }
+
+
+
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.number {
+    font-size: 6rem;
+}
+
+.btns-container {
+    width: 40rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.increment {
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 2rem;
+    background: #141517;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Media Query for Mobile Screens */
+@media only screen and (max-width: 600px) {
+    .number {
+        font-size: 4rem; /* Adjust font size for smaller screens */
+    }
+
+    .btns-container {
+        width: 80%; /* Adjust container width for smaller screens */
+        flex-direction: row; /* Stack buttons vertically on smaller screens */
+        align-items: center; /* Center buttons on smaller screens */
+        margin-top: 3rem; /* Reduce margin on smaller screens */
+    }
+
+    .increment {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        margin-top: 1rem; /* Add margin between buttons on smaller screens */
+    }
+}
