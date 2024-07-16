@@ -1,3 +1,9 @@
+This is a REACT web game  application .
+the idea is to using USESTATE to store data as it improved my understanding of usestate in reactJs and working of virtual dom....
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
